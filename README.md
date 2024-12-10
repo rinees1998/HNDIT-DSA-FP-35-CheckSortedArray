@@ -1,29 +1,18 @@
 # HNDIT-DSA-FP-35-CheckSortedArray
 Check the array true or false
-public class CheckSortedArray {
 
-	public static void main(String[] args) {
-		
-		 int[] array = {1, 2, 3, 4, 5}; 
-	        boolean isSorted = isArraySorted(array);
-	        System.out.println(isSorted); 
-	    }
+**Author Name**: SMR.Ahmed  
+**Index Number**: BAT/IT/2022/P/35  
 
-	    public static boolean isArraySorted(int[] array) {
-	       
-	        if (array == null || array.length <= 1) {
-	            return true; 
-	        }
+## Project Description
+This project check the array sorted or not.
 
-	       
-	        for (int i = 0; i < array.length - 1; i++) {
-	            if (array[i] > array[i + 1]) {
-	                return false; 
-	            }
-	        }
+## How to Compile and Run
+1. Open a terminal.
+2. Navigate to the folder containing the `CheckSortedArray.java` file.
+3. Compile the file using the command:  
+   `javac CheckSortedArray.java`
+4. Run the program using the command:  
+   `java CheckSortedArray`
 
-	        return true;
-	}
-
-}
-
+## Expected Output (screenshots)
